@@ -1,1 +1,6 @@
----
+- name: My first playbook
+  hosts: all
+
+  tasks:
+    - include_role:
+        name: role_one_playbook
