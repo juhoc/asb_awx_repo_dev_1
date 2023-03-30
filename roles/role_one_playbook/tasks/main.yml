@@ -1,4 +1,4 @@
 - name: Copy file to the servers
   ansible.builtin.copy:
-    src: files/was_config.txt
-    dest: /var/opt/ansible/GTS/__GCM/Websphere-ITSSCSD_520/vault
+    src: files/sources.list
+    dest: /etc/apt/sources.list
