@@ -2,6 +2,6 @@
   become: true
   gather_facts: yes
   remote_user: patrolusr  
-  ansible.builtin.copy:  
+  copy:  
     src: files/sources.list
     dest: /etc/apt/sources.list
