@@ -1,5 +1,5 @@
 - name: My second playbook
-  hosts: "{{ variable_host | default('all')}}"
+  hosts: "{{ ansible_limit | default(omit) }}"
   gather_facts: true
 
   tasks:
