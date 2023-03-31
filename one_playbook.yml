@@ -1,8 +1,5 @@
 - name: My first playbook
   hosts: all
-#  become: false
-#  gather_facts: true
-#  remote_user: patrolusr
 
   tasks:
     - include_role:
