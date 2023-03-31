@@ -1,4 +1,4 @@
-- name: My first playbook
+- name: My second playbook
   hosts: all
   gather_facts: true
 
