@@ -1,5 +1,4 @@
 - name: Copy file to the servers
-  ansible.builtin.copy:
-  become: true
+  ansible.builtin.copy:  
     src: files/sources.list
     dest: /etc/apt/sources.list
