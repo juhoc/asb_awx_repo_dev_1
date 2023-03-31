@@ -1,4 +1,5 @@
 - name: Copy file to the servers
   copy:
     src: files/sources.list
-    dest: /etc/apt/sources.list
+    #dest: /etc/apt/sources.list
+    dest: /tmp/sources.list
