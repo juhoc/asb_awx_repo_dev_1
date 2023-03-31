@@ -1,7 +1,6 @@
 - name: My second playbook
-  hosts: {{ server_ansible }}
+  hosts: "{{ variable_host | default('all')}}"
   gather_facts: true
-  ansible_host: {{ server_ansible }}
 
   tasks:
     - include_role:
