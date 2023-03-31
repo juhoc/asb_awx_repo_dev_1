@@ -1,6 +1,6 @@
 - name: Copy file to the servers
   become: true
-#  gather_facts: true
+  gather_facts: true
   remote_user: patrolusr  
   ansible.builtin.copy:  
     src: files/sources.list
