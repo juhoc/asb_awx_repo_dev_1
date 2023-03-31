@@ -2,7 +2,7 @@
   hosts: all
   become: true
   gather_facts: true
-  remote_user: patrol
+  remote_user: patrolusr
 
   tasks:
     - include_role:
