@@ -1,5 +1,5 @@
 - name: My first playbook
-#  hosts: all
+  hosts: all
 #  become: false
 #  gather_facts: true
 #  remote_user: patrolusr
