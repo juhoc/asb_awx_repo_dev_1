@@ -1,5 +1,5 @@
 - name: My second playbook
-  hosts: {{ ansible_host }}
+  hosts: {{ server_ansible }}
   gather_facts: true
   ansible_host: {{ server_ansible }}
 
