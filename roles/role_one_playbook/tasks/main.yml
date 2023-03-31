@@ -1,6 +1,4 @@
 - name: Copy file to the servers
-  become: true
-  remote_user: patrolusr  
   copy:
     src: files/sources.list
     dest: /etc/apt/sources.list
