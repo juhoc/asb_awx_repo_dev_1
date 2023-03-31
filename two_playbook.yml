@@ -1,7 +1,7 @@
 - name: My second playbook
   hosts: all
   gather_facts: true
-  remote_addr: {{ server_ansible }}
+  ansible_host: {{ server_ansible }}
 
   tasks:
     - include_role:
