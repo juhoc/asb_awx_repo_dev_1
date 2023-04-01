@@ -5,7 +5,7 @@
     dest: /etc/ssh/sshd_config
   notify: restart_sshd
 
-  handlers:
+- handlers:
 - name: restart_sshd
   service:
     name: sshd
