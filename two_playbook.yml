@@ -4,9 +4,9 @@
   vars:
     myvariable: "{{ my_new_value }}"
     myvariablelist:
-     - "My Value list 1"
-     - "My Value list 2"
-     - "My Value list 3"
+     - "{{ my_new_value_list_1 }}"
+     - "{{ my_new_value_list_2 }}"
+     - "{{ my_new_value_list_3 }}"
 
   tasks:
     - include_role:
