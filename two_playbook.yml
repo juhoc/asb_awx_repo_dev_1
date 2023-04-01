@@ -3,10 +3,10 @@
   gather_facts: true
   vars:
     myvariable: "My Value"
-  mylist:
-   - "My Value list 1"
-   - "My Value list 2"
-   - "My Value list 3"
+    myvariablelist:
+     - "My Value list 1"
+     - "My Value list 2"
+     - "My Value list 3"
 
   tasks:
     - include_role:
