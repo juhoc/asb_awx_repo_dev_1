@@ -5,3 +5,5 @@
   tasks:
     - include_role:
         name: role_three_playbook
+  handlers:
+   - include_tasks: handlers_sshd.yml
