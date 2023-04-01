@@ -2,7 +2,7 @@
   hosts: all
   gather_facts: true
   vars:
-    myvariable: "My Value"
+    myvariable: "{{ my_new_value }}"
     myvariablelist:
      - "My Value list 1"
      - "My Value list 2"
