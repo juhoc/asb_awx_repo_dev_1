@@ -4,5 +4,5 @@
   become_method: su
   become_exe: sudo su -
   copy:
-    src: files/sources.list
-    dest: /tmp/sources.list
+    src: files/test_file_by_user
+    dest: /tmp/test_file_by_user
