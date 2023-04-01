@@ -1,2 +1,5 @@
 - name: Show value of my variable
   debug: var=myvariable
+
+- name: Show value of my variable list
+  debug: var=myvariablelist
