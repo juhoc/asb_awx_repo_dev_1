@@ -1,6 +1,2 @@
-- name: Copy file to the servers
-  become: true
-  become_user: patrolusr
-  copy:
-    src: files/sources.list
-    dest: /tmp/sources.list
+- name: Show value of my variable
+  debug: var=myvariable
