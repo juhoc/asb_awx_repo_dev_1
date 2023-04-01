@@ -1,12 +1,6 @@
 - name: My second playbook
   hosts: all
   gather_facts: true
-  vars:
-    myvariable: "{{ my_new_value }}"
-    myvariablelist:
-     - "{{ my_new_value_list_1 }}"
-     - "{{ my_new_value_list_2 }}"
-     - "{{ my_new_value_list_3 }}"
 
   tasks:
     - include_role:
