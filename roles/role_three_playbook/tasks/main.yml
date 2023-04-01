@@ -4,9 +4,4 @@
     src: files/sshd_config
     dest: /etc/ssh/sshd_config
   notify: restart_sshd
-
-  handlers:
-#- name: restart_sshd
-  service:
-    name: sshd
-    state: restarted
+  
