@@ -3,7 +3,7 @@
   gather_facts: true
 
   tasks:
-    - include_role:
+    - import_role:
         name: role_three_playbook
 #  handlers:
 #    - include_tasks: handlers_sshd.yml
