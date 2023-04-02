@@ -1,4 +1,5 @@
 - name:  Resrart SSH Deamon
-  ansible.builtin.service: 
+  become: true
+  service: 
     name: sshd
     state: restarted
