@@ -1,5 +1,9 @@
-- name: Copy file jinja 2 template
+- name: Copy file jinja 2 template1
   template:
     src: mytemplate.j2
     dest: /tmp/mytemplatej2.txt
-  
+    
+- name: Copy file jinja 2 template2
+  template:
+    src: mytemplate1.j2
+    dest: /tmp/mytemplate1j2.txt
