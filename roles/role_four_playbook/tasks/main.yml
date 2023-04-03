@@ -1,0 +1,5 @@
+- name: Copy file jinja 2 template
+  template:
+    src: mytemplate.j2
+    dest: /tmp/mytemplatej2.txt
+  
