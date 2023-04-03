@@ -7,3 +7,8 @@
   template:
     src: mytemplate1.j2
     dest: /tmp/mytemplate1j2.txt
+
+- name: Copy file jinja 2 template3
+  template:
+    src: mytemplate2.j2
+    dest: /tmp/mytemplate2j2.txt
