@@ -1,10 +1,10 @@
 - name: My second playbook
   hosts: all
   gather_facts: true
-  vars:
-    myname: Julio
-    myyears: 45
-    mylocation: cdmx
+#  vars:
+#    myname: Julio
+#    myyears: 45
+#    mylocation: cdmx
 
   tasks:
     - include_role:
