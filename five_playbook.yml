@@ -1,8 +1,7 @@
 - name: My second playbook
   hosts: all
   gather_facts: true
-
-
+  
   tasks:
     - include_role:
         name: role_five_playbook
