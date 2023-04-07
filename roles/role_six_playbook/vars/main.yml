@@ -1,5 +1,5 @@
-myname: Julio
-myyears: 45
-mylocation: cdmx
-mylinux: ['MX Linux','EndeavourOS','Mint','Manjaro','Pop_OS','Fedora','Ubuntu','Debia','Lite','Garuda']
+#myname: Julio
+#myyears: 45
+#mylocation: cdmx
+#mylinux: ['MX Linux','EndeavourOS','Mint','Manjaro','Pop_OS','Fedora','Ubuntu','Debia','Lite','Garuda']
 accion: {{ myaction }}
