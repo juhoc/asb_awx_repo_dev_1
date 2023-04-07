@@ -1,0 +1,5 @@
+- name: Playbook Condition
+  template:
+    src: mytemplate.j2
+    dest: /tmp/mytemplatej2.txt
+  when: {{ accion }} == "Escribir"
