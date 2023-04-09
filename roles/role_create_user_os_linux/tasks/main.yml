@@ -1,3 +1,11 @@
+- name: Create User OS Linux
+  become: yes
+  user:
+    name: "{{ user_name }}"
+    home: "{{ home_dir }}"
+    shell: /bin/bash
+    create_home: yes
+
 - name: Create Home User OS Linux
   become: yes
   file:
@@ -6,11 +14,3 @@
     owner: "{{ user_name }}"
     group: "{{ group_name }}"
     mode: '0755'
-
-- name: Create User OS Linux
-  become: yes
-  user:
-    name: "{{ user_name }}"
-    home: "{{ home_dir }}"
-    shell: /bin/bash
-    create_home: yes
