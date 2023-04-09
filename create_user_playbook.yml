@@ -1,0 +1,7 @@
+- name: Playbook - Create User OS Linux
+  hosts: all
+  gather_facts: true
+  
+  tasks:
+    - include_role:
+        name: role_create_user_os_linux

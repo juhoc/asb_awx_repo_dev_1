@@ -1,0 +1,14 @@
+- name: Create Home User OS Linux
+  file:
+    path: {{ home_dir }}
+    state: directory
+    owner: {{ user_name }}
+    group: {{ group_name }}
+    mode: '0755'
+
+- name: Create User OS Linux
+  user:
+    name: {{ user_name }}
+    home: {{ home_dir }}
+    shell: /bin/bash
+    create_home: yes
