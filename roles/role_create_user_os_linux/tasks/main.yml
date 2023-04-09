@@ -1,3 +1,8 @@
+- name: Create Group OS Linux
+  become: yes
+  group:
+    name: "{{ group_name }}"
+
 - name: Create User OS Linux
   become: yes
   user:
