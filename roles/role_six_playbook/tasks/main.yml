@@ -2,4 +2,4 @@
   template:
     src: mytemplate.j2
     dest: /tmp/mytemplatej2.txt
-  when: accion == "Instalar" and ansible_distribution == "Ubuntu"
+  when: accion == "instalar" or (ansible_distribution == "Debian" or ansible_distribution == "Ubuntu")
