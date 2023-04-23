@@ -1,0 +1,9 @@
+- name: Install required ubuntu packages
+  become: yes
+  ansible.builtin.apt:
+    name: "{{ item }}"
+    state: present
+  with_item:
+   - php
+   - mariadb-server
+   - phpmyadmin

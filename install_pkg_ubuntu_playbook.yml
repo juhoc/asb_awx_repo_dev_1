@@ -1,7 +1,8 @@
 - name: Playbook - Install Packege Ubuntu
   hosts: all
+  become: yes
   gather_facts: true
   
   tasks:
     - include_role:
-        name: role_install_pkg_ubuntu_playbook
+        name: role_install_pkg_ubuntu
