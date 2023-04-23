@@ -3,7 +3,7 @@
   ansible.builtin.apt:
    name: "{{ item }}"
    state: present
-  with_item:
+  with_items:
    - php
    - mariadb-server
    - phpmyadmin
