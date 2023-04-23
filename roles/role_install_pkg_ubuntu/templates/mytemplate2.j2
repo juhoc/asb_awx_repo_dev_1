@@ -1,9 +1,0 @@
-The ansible playbook running on:
-{% if ansible_distribution == "AlmaLinux" %}
-OS Name: {{ ansible_distribution }}
-Release: {{ ansible_distribution_release }}
-Version: {{ ansible_distribution_version }}
-{% else %}
-The Operation Sistem is not AlmaLinux!!
-{% endif %}
-{# "The Operation System is correct!!" #}
